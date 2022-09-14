@@ -1,0 +1,130 @@
+body {
+			background-color: black;
+			color: white;
+			text-align: left;
+		}
+
+		#Player {
+			position: absolute;
+			height: 95px;
+			width: 66px;
+			top: 310px;
+			left: 50px;
+			z-index: 20;
+	  		background: url('Images/Superman.png') 0px 0px;
+			display: none;
+			transform: scale(1.7, 1.7);
+			
+		}
+
+		#opponent {
+			position: absolute;
+			height: 95px;
+			width: 66px;
+			top: 310px;
+			left: 650px;
+			z-index: 19;
+	  		background: url('Images/Superman.png') 0px 0px;
+			display: none;
+			transform: scale(1.7, 1.7) scaleX(-1);
+		}
+
+		#title {
+			height: 300px;
+			width: 640px;
+		}
+
+		#info {
+			background-color: black;
+			color: white;
+			text-align: left;
+			display: none;
+		}
+
+		#background {
+			position: absolute;
+			background: url('Images/metropolis.png') 0px 190px;
+			height: 200px;
+			width: 368px;
+			top: 130px;
+      		left: 150px;
+			z-index: 10;
+			transform: scale(2.3, 2.3);
+			display: none;
+		}
+		#characterPortrait {
+			position: absolute;
+			background: url('Images/supes.jpeg') 0px 0px;
+			background-size: cover;
+			height: 200px;
+			width: 200px;
+			top: -55px;
+			left: -55px;
+			z-index: 11;
+			transform: scale(0.5, 0.5);
+			display: none;
+			border-style: solid;
+			border-color: white;
+			border-width: 10px;
+		}
+		#enemyPortrait {
+			position: absolute;
+			background: url('Images/bizarro.jpeg') -100px 0px;
+			background-size: cover;
+			height: 200px;
+			width: 200px;
+			top: -55px;
+			left: 592px;
+			z-index: 11;
+			transform: scale(0.5, 0.5);
+			display: none;
+			border-style: solid;
+			border-color: white;
+			border-width: 10px;
+		}
+		#foreground {
+			position: absolute;
+			background: url('Images/foreground.png') -10px -320px;
+			height: 40px;
+			width: 572px;
+			top: 435px;
+			left: 0px;
+			z-index: 11;
+			transform: scale(1.65, 1.65);
+			display: none;
+		}
+		#playerhealthbar {
+			z-index: 22;
+			position: absolute;
+			top: 30px;
+			left: 169px;
+			display: none;
+		}
+		#enemyhealthbar {
+			z-index: 22;
+			position: absolute;
+			top: 30px;
+			left: 406px;
+			display: none;
+		}
+		#logo {
+			background: url('Images/Superman_logo.webp') 0px 23px;
+			background-size: contain;
+			position: absolute;
+			height: 280px;
+			width: 300px;
+			top: -100px;
+			left: 220px;
+			z-index: 30;
+			transform: scale(0.2, 0.2);
+			border-style: solid;
+			border-color: white;
+			border-width: 5px;
+			display: none;
+		}
+
+		#instructions{
+			position: absolute;
+			top: 500px;
+			left: 5px;
+		}

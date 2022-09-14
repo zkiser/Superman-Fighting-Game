@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Superman vs Bizarro</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="title">
+	  </div>
+	  <p id="start" onclick="startGame()">Start</p>
+	  <div id="instructions">
+		Superman Controls: W: Up / A: Left / S: Crouch / D: Right 
+		<br> m: Punch
+		<br> Bizarro Controls: Arrow Keys
+		<br> f: Punch
+	  </div>
+	  <div id="Player">
+	  </div>
+	  <div id="opponent">
+	  </div>
+	  <div id="background">
+	  </div>
+	  <div id="characterPortrait">
+	  </div>
+	  <div id="enemyPortrait">
+	  </div>
+	  <div id="foreground">
+	  </div>
+	  <div id="logo">
+	  </div>
+	  <svg id= "playerhealthbar" width = "200" height="200">
+			<rect width="175" height="25" style="fill:green" />
+	  </svg>
+	  <svg id= "enemyhealthbar" width = "200" height="200">
+		<rect width="175" height="25" style="fill:green" />
+  	  </svg>
+    <script src="script.js"></script>
+  </body>
+</html>
